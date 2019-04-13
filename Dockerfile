@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/openshift3/grafana:1.0
 
 USER root
 
-RUN mkdir /var/lib/grafana    
+#RUN mkdir /var/lib/grafana    
 
 EXPOSE 3000
    
